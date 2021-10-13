@@ -1,6 +1,6 @@
 const Card = () => {
   return (
-    <div className="md:w-1/2 lg:w-1/3 py-4 px-4">
+    <div className="w-full md:w-1/2 lg:w-1/3 py-4 px-4">
       <a href="#">
         <div className="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg">
           <div className="right-0 mt-4 rounded-l-full absolute text-center font-bold text-xs text-white px-2 py-1 bg-green-500">
