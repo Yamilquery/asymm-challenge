@@ -3,6 +3,7 @@ const Search = (props) => {
     <div className="w-full my-2 p-1 bg-white flex border border-gray-200 rounded">
       <div className="flex flex-auto flex-wrap"></div>
       <input
+        value={props.value}
         placeholder={props.placeholder ? props.placeholder : "Search"}
         className="p-1 px-2 appearance-none outline-none w-full text-gray-800"
         onChange={(e) => props.onChange(e.target.value)}

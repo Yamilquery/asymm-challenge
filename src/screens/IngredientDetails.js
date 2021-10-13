@@ -18,7 +18,7 @@ const IngredientDetails = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <div class="w-full max-w-5xl">
+      <div className="w-full max-w-5xl">
         <Card key={ingredient.id} ingredient={ingredient} detailed />
       </div>
     </div>
