@@ -29,7 +29,7 @@ const Card = (props) => {
             </div>
           )}
           
-          <img src={src_image} className="h-32 rounded-lg w-full object-cover"/>
+          <img alt="Ingredient" src={src_image} className="h-32 rounded-lg w-full object-cover"/>
           
           <div className="py-2 px-2">
             <div className=" font-bold font-title text-center">
