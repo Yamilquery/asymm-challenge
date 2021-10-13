@@ -1,11 +1,17 @@
 import "./styles.css";
 import "./styles/tailwind-pre-build.css";
+import Card from './components/Card';
 
 export default function App() {
   return (
     <div className="App">
-      <h1 className="bg-red-300">Asymm Challenge</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <div className="flex flex-wrap">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 }
